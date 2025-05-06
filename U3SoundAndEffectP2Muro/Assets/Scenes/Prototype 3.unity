@@ -446,10 +446,11 @@ MonoBehaviour:
   dirtParticle: {fileID: 39625795}
   jumpSound: {fileID: 8300000, guid: 0f7d0b7c3397f4dac91f20e8a77d2d57, type: 3}
   crashSound: {fileID: 8300000, guid: 913d6445ee8cc4152a9c18da590ee203, type: 3}
-  jumpForce: 700
+  jumpForce: 600
   gravityModifier: 1.5
   isOnGround: 1
   gameOver: 0
+  canDoubleJump: 0
 --- !u!54 &567667691
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -757,7 +758,7 @@ Transform:
   m_GameObject: {fileID: 1147963733}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.2795389, y: -1.2035317, z: 36.67542}
+  m_LocalPosition: {x: 24.85, y: 0, z: 1.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -775,7 +776,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d86e7b5e32d860448891dffb5c0e6f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 0}
+  obstaclePrefabs:
+  - {fileID: 7424381096505890226, guid: 677932c27a0bd8f418d8dfefb63cb6c6, type: 3}
+  - {fileID: 1973576330781464465, guid: dfc72f6c27eef9e4f8acbf293604bf7c, type: 3}
+  - {fileID: 8864399885787769808, guid: 0eba98d801ce8c74bbc7e8efaa39060a, type: 3}
 --- !u!1001 &1231331652
 PrefabInstance:
   m_ObjectHideFlags: 0
